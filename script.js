@@ -8,6 +8,7 @@ function loadContent(page) {
         // Checking if form exists in the current page
         const inputs = form.querySelectorAll("input, textarea");
         form.addEventListener("submit", (event) => {
+          event.preventDefault();
           let ifNoData = false;
           inputs.forEach((input) => {
             if (input.value.trim() === "") {
