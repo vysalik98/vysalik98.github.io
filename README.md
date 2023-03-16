@@ -28,6 +28,11 @@ It includes the following pages:
 - JavaScript
 - Font Awesome (for icons)
 
+##Deployment
+
+- Github pages (Settings -> Pages) 
+- https://vysalik98.github.io/ 
+
 ##Author
 
 Vysali Kallepalli
