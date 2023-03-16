@@ -3,6 +3,25 @@ function loadContent(page) {
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("content").innerHTML = data;
+      const form = document.querySelector(".contact-form");
+      if (form) {
+        // Checking if form exists in the current page
+        const inputs = form.querySelectorAll("input, textarea");
+        form.addEventListener("submit", (event) => {
+          let ifNoData = false;
+          inputs.forEach((input) => {
+            if (input.value.trim() === "") {
+              ifNoData = true;
+            }
+          });
+
+          if (ifNoData) {
+            alert("You must input required fields");
+          } else {
+            alert("I got your message");
+          }
+        });
+      }
     });
 }
 
