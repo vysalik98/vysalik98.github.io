@@ -1,42 +1,32 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Verdana;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
 }
 
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
 }
 
 .header {
   text-align: center;
-  font-size: 76px;
-  font-family: "Verdana";
+  font-size: 60px;
 }
 
 .myform {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-}
-
-.myform label {
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .myform .input {
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 5px 0;
 }
 
@@ -60,6 +50,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+}
+
+.media-link {
+  font-size: 85px;
+  color: black;
 }
 
 .submit-button:hover {
