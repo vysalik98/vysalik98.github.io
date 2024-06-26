@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script defer src="contact.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/a8890fd79d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="header">Get in Touch</h1>
+        <form class="contact-form">
+          <div class="myform">
+            <label for="name" class="mylabel">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="You!"
+              class="input"
+            />
+          </div>
+          <div class="myform">
+            <label for="email" class="mylabel">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              class="input"
+            />
+          </div>
+          <div class="myform">
+            <label for="message" class="mylabel">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              class="input msg"
+              placeholder="Your message!"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

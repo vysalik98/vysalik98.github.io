@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.myform .input {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px 0;
+}
+
+.myform .input:focus {
+  background-color: #f0f0f0;
+}
+
+.myform .msg {
+  min-height: 150px;
+  display: inline-block;
+}
+
+.submit-button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #837e7c;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}

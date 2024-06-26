@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Background</title>
+    <link rel="stylesheet" type="text/css" href="work.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- <script>
+      function toggleDropdown(element) {
+        element.classList.toggle("active");
+      }
+    </script> -->
+  </head>
+  <body>
+    <main>
+      <div class="education">
+        <h1>Education</h1>
+        <h2>Portland State University</h2>
+        <p>
+          Master of Science, Computer Science
+          <mark>3.85 GPA graduated Spring 2024</mark>
+        </p>
+        <hr />
+        <h2>GITAM University</h2>
+        <p>Bachelor of Technology, Information Technology</p>
+      </div>
+      <div class="experience">
+        <h1>Work</h1>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-info">
+              <h2>Accenture - Anthem</h2>
+              <p>Data Analyst (Jun 2019 - Nov 2019)</p>
+            </div>
+            <button class="arrow-btn" onclick="toggleDropdown(this)">
+              &#9662;
+            </button>
+          </div>
+          <ul class="dropdown-content" style="list-style-type: disc">
+            <li>
+              Enhanced patient satisfaction scores by 20% through meticulous
+              analysis of patient feedback.
+            </li>
+            <li>
+              Crafted comprehensive dashboards for stakeholders, delivering
+              actionable insights that spurred a notable 15% decline in patient
+              complaints within the initial six- month period.
+            </li>
+            <li>
+              Established and monitored patient satisfaction KPIs, including NPS
+              and overall satisfaction rates.
+            </li>
+            <li>
+              Fostered collaboration with cross-functional teams to grasp the
+              intricacies of patient satisfaction metrics.
+            </li>
+          </ul>
+          <hr class="dropdown-line" />
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-info">
+              <h2>Tata Consultancy Services - NBCUniversal</h2>
+              <p>Data Analyst (Nov 2020 - Apr 2022)</p>
+            </div>
+            <button class="arrow-btn" onclick="toggleDropdown(this)">
+              &#9662;
+            </button>
+          </div>
+          <ul class="dropdown-content" style="list-style-type: disc">
+            <li>
+              Analyzed user engagement metrics through statistical modeling and
+              initiated targeted strategies, driving a 22% rise in satisfaction
+              scores.
+            </li>
+            <li>
+              Conducted in-depth user engagement analysis, fostering
+              enhancements to the digital platform and yielding a remarkable 15%
+              upturn in overall user retention.
+            </li>
+            <li>
+              Utilized Python and SQL to analyze churn patterns, implementing
+              strategies that achieved a 10% decline in churn in the initial 12
+              months.
+            </li>
+          </ul>
+          <hr class="dropdown-line" />
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-info">
+              <h2>Portland State University</h2>
+              <p>
+                Graduate Teaching Assistant - Data Engineering (Mar 2024 - Jun
+                2024)
+              </p>
+            </div>
+            <button class="arrow-btn" onclick="toggleDropdown(this)">
+              &#9662;
+            </button>
+          </div>
+          <ul class="dropdown-content" style="list-style-type: disc">
+            <li>
+              Transformed 17GB of TriMet data into JSON and HTML formats,
+              optimizing it for daily access and integration through a Flask web
+              server on Google Cloud Platform.
+            </li>
+            <li>
+              Engineered an automated data pipeline incorporating Google Cloud
+              Pub/Sub and Python for data extraction, transformation, and
+              loading into PostgreSQL database.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

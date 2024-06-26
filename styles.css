@@ -1,0 +1,150 @@
+.image.me {
+  border-radius: 50%;
+  height: auto;
+}
+
+.paragraph {
+  display: block;
+  font-size: 1.25rem;
+  font-family: "minion-pro";
+  line-height: 1.7;
+  font-weight: lighter;
+  justify-content: center;
+}
+
+.about-content {
+  padding-top: 50px;
+  margin: 0 5%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  color: #ffdb58;
+  font-family: neue-haas-grotesk-display;
+  font-size: 2.8rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.site-title {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+  font: neue-haas-grotesk-display;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  z-index: 100;
+}
+
+.site-title:hover {
+  color: white;
+  transform: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: minion-pro;
+  background-color: hsla(204.38709677, 79.48717949%, 38.23529412%, 1);
+}
+
+br {
+  margin-bottom: 3rem;
+}
+
+nav {
+  background-color: hsla(204.38709677, 79.48717949%, 38.23529412%, 1);
+  overflow: hidden;
+  justify-content: right;
+  display: flex;
+  padding-top: 20px;
+  margin: 33px;
+}
+
+.nav-link {
+  font-family: "Times New Roman";
+}
+
+.media-link {
+  margin-top: 0.1rem;
+}
+nav a {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.25em;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+nav a:hover {
+  color: #ffdb58;
+  transform: 1.2s ease-in-out;
+}
+
+nav a.active {
+  color: #ffdb58;
+}
+
+@media screen and (max-width: 868px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .navbar a {
+    display: none;
+  }
+  .site-title {
+    display: block;
+  }
+  .navbar a.hamburger {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 868px) {
+  .navbar.responsive {
+    flex-direction: column;
+    position: relative;
+    transition: 0.4s ease-out;
+    padding-top: 120px;
+    gap: 10px;
+  }
+
+  .navbar.responsive a.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    top: 20px; /* Adjust as needed */
+  }
+  .navbar.responsive .media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+  .navbar.responsive a.nav-link {
+    font-size: 2em;
+  }
+  .navbar.responsive a.media {
+    justify-content: center;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    justify-content: center;
+  }
+}

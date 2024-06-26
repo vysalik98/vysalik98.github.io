@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./projects.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="carousel">
+        <div class="carousel-item active fade">
+          <div class="carousel-content">
+            <img src="../images/senti.png" />
+            <div>
+              <a
+                class="link"
+                id="project1"
+                href="https://github.com/vysalik98/SE_554_SentimentAnalysis"
+                >Sentiment Analysis</a
+              >
+              <p>
+                Developed a model that determines the positivity or negativity
+                of any given review, whether it's about a product, a movie, or
+                food, etc. This included training the model in Python using a
+                dataset and incorporating various antonyms, synonyms, and
+                punctuation marks to enhance its accuracy. To achieve this,
+                Negation Handling was used to pay particular attention to
+                analyzing negative reviews with positive phrases. To make the
+                model more interactive, a feature was integrated which allows
+                users input their own reviews and obtain an immediate sentiment.
+                To acheive this, Streamlit, an open-source platform, was used to
+                create a user-friendly interface that allows users to input
+                reviews and interact with the responses (positive or negative).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item fade">
+          <div class="carousel-content">
+            <img src="../images/health.png" />
+            <div>
+              <a
+                class="link"
+                id="project2"
+                href="https://github.com/vysalik98/Predictive-Modeling-for-Diabetes-Patient-Readmissions"
+                >Predictive Modeling for Diabetes Patient Readmissions</a
+              >
+              <p>
+                Developed a Predictive Modeling project for Diabetes Patient
+                Readmissions using Python and scikit-learn. The project involved
+                collecting and preprocessing a dataset of 101,766 records,
+                addressing missing values, and performing feature engineering.
+                Conducted exploratory data analysis to identify key predictors
+                of readmissions, such as number of diagnoses, hospital stays,
+                and medications. Implemented and compared machine learning
+                models, including Logistic Regression and Random Forest, to
+                predict 30-day readmissions. Evaluated model performance using
+                metrics such as accuracy, precision, recall, and AUC-ROC, with
+                the Random Forest model achieving the highest performance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item fade">
+          <div class="carousel-content">
+            <img src="../images/bus.png" />
+            <div>
+              <a
+                class="link"
+                id="project3"
+                href="https://github.com/vysalik98/CS510_DataEng_Project"
+                >Trimet Route Insight Project</a
+              >
+              <p>
+                Developed a real-time data pipeline to ingest and process
+                TriMet's GPS and stop events data, overcoming challenges using
+                Kafka and Postgres. Implemented a Kafka Producer and Consumer
+                for publishing and consuming data in real-time, with the
+                Consumer inserting data into Postgres seamlessly. The project
+                resulted in significant improvements in system performance and
+                reliability, addressing latency, data loading, and
+                transformation challenges. Acquired hands-on experience in
+                building end-to-end data streaming pipelines, conducting
+                analytics with Pandas, and implementing Producer and Consumer
+                models using Python. Additionally, successfully loaded data into
+                Postgres using SQL.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item fade">
+          <div class="carousel-content">
+            <img src="../images/music.png" />
+            <div>
+              <a
+                class="link"
+                id="project4"
+                href="https://github.com/vysalik98/music-dbms-project"
+                >Music Database</a
+              >
+              <p>
+                Developed a Database Management System (DBMS) project focused on
+                music data analysis using PostgreSQL and PgAdmin. The project
+                encompassed collecting diverse music-related datasets,
+                performing data preprocessing and cleaning, crafting SQL queries
+                for in-depth data analysis, and employing Python for data
+                visualization and query plan analysis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </main>
+  </body>
+</html>
