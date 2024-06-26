@@ -45,6 +45,7 @@
   color: white;
   padding-top: 20px;
   z-index: 100;
+  margin-left: 15px;
 }
 
 .site-title:hover {
@@ -128,7 +129,7 @@ nav a.active {
     right: 0;
     top: 0;
     display: block;
-    top: 20px; /* Adjust as needed */
+    top: 20px;
   }
   .navbar.responsive .media {
     display: flex;
